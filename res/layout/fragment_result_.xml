@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.kunal.quizapp.Quiz.Result_">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Good Performance"
+        android:gravity="center"
+        android:fontFamily="cursive"
+        android:id="@+id/perform"
+        android:textSize="30sp"
+        android:layout_marginBottom="50dp"
+        android:textColor="#000"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Right Answers : "
+        android:paddingLeft="20dp"
+        android:fontFamily="cursive"
+        android:id="@+id/right_answer"
+        android:textSize="30sp"
+        android:textColor="#17e414"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wrong Answers : "
+        android:fontFamily="cursive"
+        android:paddingLeft="20dp"
+        android:id="@+id/wrong_answer"
+        android:textSize="30sp"
+        android:textColor="#ff002f"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not Attempt : "
+        android:fontFamily="cursive"
+        android:paddingLeft="20dp"
+        android:id="@+id/not_attempt"
+        android:textSize="30sp"
+        android:textColor="#105fce"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#FF2874EF"
+        android:layout_marginTop="50dp"
+        android:layout_height="0.5dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Restart"
+            android:id="@+id/restart"
+            android:textColor="#FF2874EF"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:background="#fff"
+            android:layout_height="match_parent"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_weight="0.005"
+            android:background="#FF2874EF"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:textColor="#FF2874EF"
+            android:textAllCaps="false"
+            android:fontFamily="cursive"
+            android:textStyle="bold"
+            android:background="#fff"
+            android:id="@+id/re_ok"
+            android:textSize="20dp"
+            android:text="OK"
+            android:layout_height="match_parent"/>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:background="#FF2874EF"
+        android:layout_height="0.5dp"/>
+
+</LinearLayout>
